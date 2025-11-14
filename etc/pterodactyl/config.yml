@@ -1,0 +1,18 @@
+debug: false
+uuid: 405d5e46-43ac-4482-92e3-4b6e429326d1
+token_id: bbbpkLFnZvT8sMjO
+token: ijqY2UtsMnRXxTEpMeDxMHAwzo4p93lUhix6i2HI2tuSecZiAxed7KiqsAG3KqLS
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node2.kurdishgpt.qzz.io/fullchain.pem
+    key: /etc/letsencrypt/live/node2.kurdishgpt.qzz.io/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://ubiquitous-system-v6jr5pgqrgvg2xpgw-80.app.github.dev'
